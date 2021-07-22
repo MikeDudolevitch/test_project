@@ -17,12 +17,12 @@ class Image {
     
     }
 
-    // const getImage = () {
-    // fetch('http://localhost:3000/api/images')
-    // .then(resp => resp.json())
-    // .then(image => console.log(image))
-    // .catch(error => console.warn(error))
-    // }
+    const getImage = () {
+    fetch('http://localhost:3000/api/images')
+    .then(resp => resp.json())
+    .then(image => console.log(image))
+    .catch(error => console.warn(error))
+    }
     
 
 
