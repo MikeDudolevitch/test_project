@@ -13,14 +13,3 @@ function getImage(){
     })
     .catch(err => console.warn(err))
 }
-
-function addToDom() {
-    const imageDiv = document.querySelector("#img-container")
-    imageDiv.innerHTML += this.render()
-}
-
-function render() {
-    return (`<h3> Generic Name </h3>
-    <img src= "${Image.link}" />`)
-
-}
